@@ -1,0 +1,12 @@
+public class Exception{
+if(Character.weapon=""){
+System.out.println("I refuse to fight with my bare hands.")
+}
+else if (Character.RPGClass=Warrior){
+System.out.println("A"+Character.weapon+"?? what should i do with this ?!")
+}
+else {
+System.out.println("I don't need this stupid"+Character.weapon+"! Don't misjudge my powers!)
+}
+}
+}
