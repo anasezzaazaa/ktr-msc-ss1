@@ -1,0 +1,24 @@
+public class Mage{
+ String name;
+ String RPGClass="Mage";
+ int life=70;
+ int agility=3;
+ int strength=10;
+ int wit=10;
+ Mage(){
+  System.out.println(name+": May the gods be with me.")
+  }
+ public static  void attack(String weapon){ 
+  if weapon="magic" or weapon="wand"{
+   System.out.println(name+": Rrrrrrrrr....");
+   System.out.println("I'll crush you with my "+weapon+"!")
+ public static void moveRight(){
+  System.out.println("moves right furtively.")};
+ public static void moveLeft(){
+  System.out.println("moves left furtively.")};
+ public static void moveBack(){
+  System.out.println("moves back furtively.")};
+ public static void moveForward(){
+  System.out.println("moves forward furtively.")};
+}
+}
