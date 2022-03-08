@@ -11,7 +11,16 @@ public class Character {
   }
  public static void attack(){ 
      System.out.println(name+": Rrrrrrrrr....");}
- 
+ public static void moveRight(){
+  System.out.println("moves right")};
+ public static void moveLeft(){
+  System.out.println("moves left")};
+ public static void moveBack(){
+  System.out.println("moves back")};
+ public static void moveForward(){
+  System.out.println("moves forward")};
+ public static void unsheathe(){
+  System.out.println(name+"unsheathes his weapon.")};
 }
 public class Warrior{
  String name;
@@ -27,6 +36,14 @@ public class Warrior{
   if weapon="hammer" or weapon="sword"{
    System.out.println(name+": Rrrrrrrrr....");
    System.out.println("I'll crush you with my "+weapon+"!");
+ public static void moveRight(){
+  System.out.println("moves right like a bad boy.")};
+ public static void moveLeft(){
+  System.out.println("moves left like a bad boy.")};
+ public static void moveBack(){
+  System.out.println("moves back like a bad boy.")};
+ public static void moveForward(){
+  System.out.println("moves forward like a bad boy.")};
 }
 }
 public class Mage{
@@ -43,5 +60,13 @@ public class Mage{
   if weapon="magic" or weapon="wand"{
    System.out.println(name+": Rrrrrrrrr....");
    System.out.println("I'll crush you with my "+weapon+"!")
+ public static void moveRight(){
+  System.out.println("moves right furtively.")};
+ public static void moveLeft(){
+  System.out.println("moves left furtively.")};
+ public static void moveBack(){
+  System.out.println("moves back furtively.")};
+ public static void moveForward(){
+  System.out.println("moves forward furtively.")};
 }
 }
