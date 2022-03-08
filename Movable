@@ -1,0 +1,8 @@
+public static void moveRight(){
+  System.out.println("moves right")};
+ public static void moveLeft(){
+  System.out.println("moves left")};
+ public static void moveBack(){
+  System.out.println("moves back")};
+ public static void moveForward(){
+  System.out.println("moves forward")};
